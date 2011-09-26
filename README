@@ -1,0 +1,43 @@
+uWeb - the tiny minimalistic webserver, by Emiel Kollof
+-------------------------------------------------------
+
+What is this?
+-------------
+
+This is a simplistic webserver I cobbled together in a span of a quiet
+afternoon while playing on my shiney new PDP11 emulator. It's sort of
+RFC 1945 comliant, but I'm not too sure about that :)
+
+What can it do?
+---------------
+
+It serves web pages of course. It also understands a few mime-types to
+facilitate the serving of images and other content as well.
+
+What can it _NOT_ do?
+---------------------
+
+It only serves webpages. It can't make your coffee or do your laundry.
+Also, don't expect too much from this excuse of a program. It probably has
+annoying bugs. Heck, you can help me fix them by telling me about it if
+you find some. Although I might hack in CGI supprt if I'm bored enough.
+
+Can I do <insert something> with your code?
+-------------------------------------------
+
+Sure. It's got a BSD license. So you can basically do with it what you like.
+As long as you leave the copyright notice intact, I don't care _what_ you do
+with my code. Just don't copy it and claim you wrote it yourself.
+
+Oh, please send me patches if you added something worthwhile. Yes, you'll
+get credit. Unified diffs are just fine.
+
+How do I build this?
+--------------------
+
+Well, you need a working *nix like system (anything BSD-ish is great) and
+a compiler that groks strict k&r C.
+
+Just run make(1) in the source root and you'll end up with a binary called
+'webserver' which does the webserving stuff. Run it without arguments to
+get a short usage summary. It should be pretty straightforward.
